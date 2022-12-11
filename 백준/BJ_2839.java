@@ -5,6 +5,7 @@ public class BJ_2839 {
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
         int n=Integer.parseInt(br.readLine());
         int cnt=0;
+
         while(true){
             if(n%5==0){
                 cnt+=n/5;
